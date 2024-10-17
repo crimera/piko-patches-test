@@ -35,8 +35,8 @@ jobs:
 
       - name: Build with Gradle
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: ./gradlew assemble
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./gradlew publish
 
       - name: Get the current date
         id: date
