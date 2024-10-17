@@ -1,0 +1,10 @@
+{
+  "patches": {
+    "version": "v1.42.0",
+    "url": "https://github.com/crimera/piko-patches-test/releases/download/20241017/piko-twitter-patches-1.42.0.jar"
+  },
+  "integrations": {
+    "version": "v1.31.1",
+    "url": "https://github.com/crimera/revanced-integrations/releases/download/v1.31.1/revanced-integrations-1.31.1.apk"
+  }
+}
