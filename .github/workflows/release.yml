@@ -39,7 +39,7 @@ jobs:
 
       - name: Get the current date
         id: date
-        run: echo "CURRENT_DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV
+        run: echo "CURRENT_DATE=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
       - name: Upload release build artifact to GitHub Release
         uses: softprops/action-gh-release@v2
