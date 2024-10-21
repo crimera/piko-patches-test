@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: crimera/piko
-          ref: fix/string-resource-fix
+          ref: fix/resource-string-fix
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
