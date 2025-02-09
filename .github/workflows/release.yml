@@ -49,5 +49,5 @@ jobs:
           draft: false
           make_latest: true
           files: |
-            patches/build/libs/patches-*.rvp
+            build/libs/patches-*.rvp
             build/libs/*.jar
